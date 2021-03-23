@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project SheCodes</title>
+  </head>
+
+  <style>
+    h1 {
+      color: #f35353;
+      font-size: 40px;
+      text-align: center;
+      padding: auto;
+      margin: auto;
+      background-color: #9eebe8;
+      border-radius: 4px;
+    }
+    h2 {
+      text-align: center;
+      color: #f35353;
+      font-size: 30px;
+    }
+    p {
+      text-align: center;
+      font-size: 20px;
+    }
+
+    ul {
+      list-style: inline;
+      text-align: center;
+    }
+
+    li {
+      display: inline;
+      padding: auto;
+    }
+
+    img {
+      display: block;
+      max-width: 500px;
+      margin: auto;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 50px;
+      margin: 0 auto;
+    }
+
+    button {
+      display: block;
+      margin: auto;
+      padding: 10px 40px;
+      border-radius: 5px;
+      box-shadow: grey;
+      background-color: #f35353;
+      cursor: pointer;
+      transition: 300ms ease-in-out;
+    }
+    button:hover {
+      background-color: #9eebe8;
+    }
+  </style>
+  <body>
+    <h1>Welcome to the World of Theatre!</h1>
+    <h2>Have a look through the stage door</h2>
+
+    <p>
+      <strong>
+        <em
+          >Having worked in theatres for many years I have been privileged to
+          see many areas that the audience does not see.
+        </em>
+      </strong>
+    </p>
+    <p>Check out the images below from The Old Rep Theatre</p>
+
+    <ul>
+      <li>
+        <a
+          href="https://officiallondontheatre.com/theatre-careers-advice/life-backstage"
+          target="blank"
+          class="more"
+        >
+          See more at Official London Theatre
+        </a>
+      </li>
+    </ul>
+
+    <br />
+    <a>
+      <img
+        src="https://www.oldreptheatre.co.uk/_site/data/images/galleries/11/EmptyName%208%20copy.jpg"
+      />
+    </a>
+
+    <br />
+    <a>
+      <img
+        src="https://www.oldreptheatre.co.uk/_site/data/files/images/about%20us/3277497D3BA1C2473824373F25CA4DBF.jpg"
+      />
+    </a>
+
+    <br />
+    <a>
+      <img
+        src="https://wonkhe.com/wp-content/wonkhe-uploads/2018/09/wonkhe-backstage-theatre-technicians-1140x641.jpg"
+      />
+    </a>
+
+    <button>find out more here 🎭</button>
+
+    <hr />
+    <footer>coded by Amy Wells</footer>
+
+    <script>
+      function FindOut() {
+        let backstage = prompt("Are you interested in backstage?");
+        let name = prompt("What is your name?");
+
+        if (backstage === "yes") {
+          alert(name + " You've come to the right place!");
+        } else {
+          alert(name + " Have a look anyway!😊");
+        }
+      }
+      let FindOutbutton = document.querySelector("button");
+
+      FindOutbutton.addEventListener("click", FindOut);
+    </script>
+  </body>
+</html>
