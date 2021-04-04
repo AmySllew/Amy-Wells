@@ -2,6 +2,7 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --lettering: "Domine", serif;
 }
 
 body {
@@ -103,4 +104,11 @@ p {
 }
 .icon {
   font-size: 48px;
+}
+
+.hero h1 {
+  font-family: var(--lettering);
+}
+footer {
+  display: block;
 }
