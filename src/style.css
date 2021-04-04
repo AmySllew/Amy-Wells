@@ -109,6 +109,18 @@ p {
 .hero h1 {
   font-family: var(--lettering);
 }
+
+@media {
+  .theatre-link {
+    display: center;
+    padding: 20px, 20px;
+  }
+  .weather {
+    display: center;
+    padding: 20px, 20px;
+  }
+}
+
 footer {
-  display: block;
+  display: center;
 }
