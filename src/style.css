@@ -110,12 +110,16 @@ h4 {
 .icon {
   font-size: 48px;
 }
+.hero {
+  display: flex;
+  flex-direction: column;
+}
 
 .hero h1 {
   font-family: var(--lettering);
 }
 
-@media {
+@media (max-width 900px) {
   .theatre-link {
     display: center;
     padding: 20px, 20px;
@@ -125,9 +129,12 @@ h4 {
     padding: 20px, 20px;
   }
 }
-
+.headshot {
+  border-radius: 10px;
+  max-width: 300px;
+}
 .contacts {
-  padding: 5 5 5;
+  padding: 20px 20px;
 }
 footer {
   display: center;
