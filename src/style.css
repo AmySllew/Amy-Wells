@@ -92,7 +92,8 @@ h4 {
   font-size: 28px;
   text-decoration: none;
 }
-.projects {
+
+.projects-hero {
   display: flex;
 }
 
@@ -121,9 +122,6 @@ h4 {
 .hero h1 {
   font-family: var(--lettering);
 }
-.projects {
-  display: flex;
-}
 @media (max-width 900px) {
   .theatre-link {
     display: flex;
@@ -134,7 +132,7 @@ h4 {
     padding: 20px, 20px;
   }
 }
-.container {
+.container-hero {
   display: flex;
 }
 
