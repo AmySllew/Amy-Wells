@@ -137,5 +137,5 @@ h4 {
   padding: 20px 20px;
 }
 footer {
-  display: center;
+  display: flex;
 }
