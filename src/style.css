@@ -20,11 +20,12 @@ h3 {
 
 h1 {
   font-size: 80px;
+  padding-top: 50px;
 }
 
 h2 {
   font-size: 24px;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 h3 {
@@ -44,6 +45,7 @@ h4 {
   font-size: 48px;
   text-align: center;
   font-family: var(--lettering);
+  padding-top: 50px;
 }
 .navigation-links {
   display: flex;
@@ -67,6 +69,7 @@ h4 {
 
 .about-link {
   color: var(--primary-color);
+  box-shadow: var(--box-shadow);
   border: 1px solid var(--primary-color);
 }
 
@@ -117,12 +120,13 @@ h4 {
 }
 .hero {
   display: flex;
+  padding: 200 0;
 }
 
 .hero h1 {
   font-family: var(--lettering);
 }
-@media (max-width 900px) {
+@media (max-width) {
   .theatre-link {
     display: flex;
     padding: 20px, 20px;
@@ -134,11 +138,13 @@ h4 {
 }
 .container-hero {
   display: flex;
+  padding-top: 200 0;
 }
 
 .headshot {
   border-radius: 10px;
   max-width: 400px;
+  padding-top: 50px;
 }
 .contacts {
   padding: 20px 20px;
